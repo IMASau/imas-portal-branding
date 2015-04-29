@@ -1,3 +1,10 @@
 #headerTitle {
     display: none;
 }
+#logo {
+    width: 590px;
+}
+.mainlinks {
+    /* Remove border now that there's no login link */
+    border-left: none;
+}
