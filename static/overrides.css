@@ -1,8 +1,17 @@
+#landingHeaderContainer {
+    margin-left: 530px;
+}
 #headerTitle {
-    display: none;
+/* image replacement: */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(//data.imas.utas.edu.au/static/img/header-text.png) no-repeat 6px 30px transparent;
+    width: 100%;
+    height: 84px;
 }
 #logo {
-    width: 590px;
+    width: 410px;
 }
 .mainlinks {
     /* Remove border now that there's no login link */
