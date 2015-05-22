@@ -61,19 +61,29 @@ h1 {
     float: left;
     position: absolute;
     margin-top: 10px;
-    margin-left: 35px;
+    margin-left: 25px;
 }
 
 #logo {
-    margin: 10px 15px 0 35px;
-    width: 590px;
+    margin: 10px 15px 0 0;
+    width: 410px;
 }
 
 #landingHeaderContainer {
-    margin-left: 340px;
+    margin-left: 470px;
 }
 .headerHeightOverlord {
     height: 120px;
+}
+
+#headerTitle {
+/* image replacement: */
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(../img/header-text.png) no-repeat 6px 10px transparent;
+    width: 100%;
+    height: 84px;
 }
 
 #toplinks {
